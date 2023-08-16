@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icom" href="img/icon.webp">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>لیست کارها</title>
+</head>
+
+<body>
+    <div class="alert-box"></div>
+    <main>
+        <div class="container">
+            <h2>لیست کارها</h2>
+            <div class="form">
+                <button onclick="cancelEdit()">لغو</button>
+                <input id="content" type="text" placeholder="اینجا بنویسید">
+                <button onclick="editItem()">ویرایش</button>
+                <button onclick="add()">افزودن</button>
+            </div>
+            <div class="list"></div>
+            <div class="remove-list">
+                <button onclick="removeAll()" class="remove-list-btn" style="display: none;">حذف لیست</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js" data-=""></script>
+    <!-- 
+        written by https://github.com/mohamadmahdi-ap/ copyright 2023
+     -->
+</body>
+
+</html>
